@@ -13,8 +13,7 @@ class ViewController: UIViewController , UITableViewDelegate {
     @IBOutlet weak var table: UITableView!
     @IBOutlet weak var siderValue: UISlider!
 
-    @IBAction func sliderMoved(sender: AnyObject) 
-    {
+    @IBAction func sliderMoved(sender: AnyObject) {
         table.reloadData()
     }
     
