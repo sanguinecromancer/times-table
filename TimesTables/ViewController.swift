@@ -13,14 +13,15 @@ class ViewController: UIViewController , UITableViewDelegate {
     @IBOutlet weak var table: UITableView!
     @IBOutlet weak var siderValue: UISlider!
 
-    @IBAction func sliderMoved(sender: AnyObject) {
+    @IBAction func sliderMoved(sender: AnyObject) 
+    {
         table.reloadData()
     }
     
    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
    {
     return 10
-    }
+   }
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
